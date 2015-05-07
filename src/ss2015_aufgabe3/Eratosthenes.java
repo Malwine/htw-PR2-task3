@@ -33,11 +33,11 @@ public class Eratosthenes {
 	}
 	
 	/**
-	 * 
+	 * This method finds the prime numbers in ALL
+	 * by removing all numbers from ALL that are double in SIEVE.
 	 * @return
 	 */
-	public TreeSet<Integer> findPrimes(){
-		//TODO
-		return null;
+	public void findPrimes(){
+		this.all.removeAll(this.sieve);
 	}
 }
